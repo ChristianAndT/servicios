@@ -1,39 +1,149 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TuConexión - Servicios Tecnológicos</title>
-  <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Servicios Tecnológicos - Redes, Cámaras y Mantenimiento</title>
+<style>
+  /* Reset básico */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0b173d;
+    color: #f0f4f8;
+    line-height: 1.6;
+  }
+  a {
+    color: #ffca3a;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background: #08103c;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.3rem;
+    color: #ffca3a;
+  }
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .btn-whatsapp {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.5);
+    transition: background 0.3s ease;
+  }
+  .btn-whatsapp:hover {
+    background: #1da851;
+  }
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  section {
+    margin-bottom: 3rem;
+  }
+  section h2 {
+    color: #ffca3a;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ffca3a;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+  }
+  .service {
+    background: #16265a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 15px rgba(255, 202, 58, 0.2);
+  }
+  .service h3 {
+    margin-bottom: 0.8rem;
+    color: #ffd74d;
+  }
+  .service p {
+    font-size: 1rem;
+    color: #d1d9ff;
+  }
+  .testimonials {
+    background: #08103c;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(37, 211, 102, 0.3);
+  }
+  .testimonial {
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #c9d1ff;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #7a7a7a;
+  }
+</style>
 </head>
 <body>
-  <header>
-    <h1>TuConexión</h1>
-    <p>Servicios Tecnológicos en Quito</p>
-  </header>
 
-  <section class="services">
+<header>
+  <h1>Conectamos tu mundo digital</h1>
+  <p>Redes WiFi, cámaras de seguridad y mantenimiento de computadoras con calidad y atención personalizada en Quito.</p>
+  <a class="btn-whatsapp" href="https://wa.me/593987100724" target="_blank" rel="noopener">Contáctanos por WhatsApp</a>
+</header>
+
+<main>
+
+  <section>
+    <h2>Servicios Destacados</h2>
     <div class="service">
-      <img src="img/wifi-icon.png" alt="WiFi">
-      <h2>Redes WiFi</h2>
-      <p>Instalamos y optimizamos redes inalámbricas para hogares y negocios.</p>
+      <h3>Redes WiFi & Cableado estructurado</h3>
+      <p>Cobertura total para hogares, oficinas y negocios. Sin zonas muertas ni interrupciones.</p>
     </div>
     <div class="service">
-      <img src="img/camera-icon.png" alt="Cámaras">
-      <h2>Cámaras de Seguridad</h2>
-      <p>Monitorea tu espacio con tecnología de videovigilancia avanzada.</p>
+      <h3>Cámaras de seguridad</h3>
+      <p>Instalación profesional y monitoreo en tiempo real desde tu celular.</p>
     </div>
     <div class="service">
-      <img src="img/computer-icon.png" alt="Computadoras">
-      <h2>Mantenimiento</h2>
-      <p>Reparamos y mejoramos el rendimiento de tus equipos de cómputo.</p>
+      <h3>Mantenimiento de computadoras</h3>
+      <p>Limpieza, optimización, formateo y respaldo de datos para mantener tus equipos como nuevos.</p>
     </div>
   </section>
 
-  <footer>
-    <p>Contáctanos: tuconexion@ejemplo.com</p>
-  </footer>
+  <section class="testimonials">
+    <h2>Testimonios</h2>
+    <p class="testimonial">“Ahora trabajo desde casa sin perder conexión.”</p>
+    <p class="testimonial">“Las cámaras nos brindan tranquilidad total.”</p>
+  </section>
 
-  <script src="js/scripts.js"></script>
+  <section>
+    <h2>Contacto</h2>
+    <p>¿Listo para mejorar tu conexión y seguridad? Escríbenos:</p>
+    <p>📞 WhatsApp: <a href="https://wa.me/593987100724" target="_blank" rel="noopener">0987100724</a></p>
+    <p>📧 Correo: <a href="mailto:christian.t1994@hotmail.com">christian.t1994@hotmail.com</a></p>
+    <p>📍 Quito, Ecuador</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Servicios Tecnológicos. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
