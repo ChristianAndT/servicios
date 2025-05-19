@@ -77,11 +77,3 @@ h1,h2,h3 {
 .contact-form input, .contact-form textarea {
     padding: 0.8rem; border-radius: 8px; border: 1px solid #ccc; font-family: inherit;
 }
-
-.service-card, .testimonial-card, .why-us, .contact-form {
-    opacity:0; transform:translateY(50px); transition:opacity 1s,transform 1s;
-}
-.show {
-    opacity:1; transform:translateY(0);
-}
-
